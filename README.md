@@ -1,7 +1,7 @@
 # Conceptos Básicos para Empezar a Programar en Desarrollo Web
 
 ## 1. HTML (Hypertext Markup Language)
-- **Qué es:** El lenguaje de marcado utilizado para estructurar el contenido de una página web.
+- **Qué es:** El lenguaje de marcado utilizado para estructurar el contenido de una página web. Mishelle
 - **Conceptos básicos:**
   - **Etiquetas:** Elementos que definen la estructura del contenido (por ejemplo, `<h1>`, `<p>`, `<a>`, `<div>`, etc.).
   - **Atributos:** Propiedades de las etiquetas (por ejemplo, `class`, `id`, `href`).
