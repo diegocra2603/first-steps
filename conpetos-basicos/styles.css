@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+.title {
+    background-color: #00356f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    /* margin: 20px; */
+}
+
+img {
+    width: 150px;
+    height: 75px;
+}
