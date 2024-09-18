@@ -3,20 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hola Mishelle 2</title>
+        <title>Hola Mishelle</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <nav class="title">
-        <img src="https://sanmartinbakery.com/centrohistorico/wp-content/uploads/sites/12/2020/09/logoSM_wt-175x35.png" alt="imagen_de_san_martin">
+
+            <img
+                src="https://sanmartinbakery.com/centrohistorico/wp-content/uploads/sites/12/2020/09/logoSM_wt-175x35.png"
+                alt="imagen_de_san_martin">
 
         </nav>
-        <h1>Hola Mundo</h1>
-        <h1>Como estas?</h1>
-        <h1>Juan</h1>
-        <p class="content">Bien gracias</p>
-        <a href="https://www.google.com" target="_blank">
-            Visita google
-        </a>
+
+        <h1>Formulario</h1>
+
+        <form class="contenedor" id="formulario">
+
+            <input type="text" name="nombre" id="mishelle"
+                placeholder="Escribe tu nombre" />
+            <input type="password" name="password" id="password"
+                placeholder="Escribe tu contraseña" />
+            <input type="number" name="edad" id="edad"
+                placeholder="Escribe tu edad" />
+            <input type="date" name="fechaNacimiento" id="fechaNacimiento"
+                placeholder="Escribe tu fecha de nacimineto" />
+            <input type="color" name="color" id="color"
+                placeholder="Selecciona el color que quieras" />
+            <input type="file" name="archivo" id="archivo"
+                placeholder="Selecciona el archivo a subir quieras" />
+
+            <button type="submit">Enviar</button>
+
+        </form>
+
+        <div class="contenedor">
+            <h2>Resultado</h2>
+            <div id="content"></div>
+        </div>
+
     </body>
+
+    <script src="index.js"></script>
+
 </html>
